@@ -1,0 +1,16 @@
+## git checkout commitid
+Detached Head
+head baska bıyerde fakat bulundugu yer branchın son commıtı degıl.
+bu durumda yapabıleceklerın:
+## git switch name ## branchdekı son commite donebılırsın ## burada head ve master aynı yerdeyse head son commıtte demektır. head onemlı.
+ 
+## bu committe yenı bır branch acıp bu branche gecıp burayı commıtleyıp ılerleyebılırsın ## ıkı tane yol acmıs olursun
+
+## bulundugumuz commıtten sonrakı commıtlerı sılebılırsın. iki yolu var
+# git reset --hard commitid (istenilen yer)
+# git revert commitid > git add . > git revert --continue ## yenı commıt atar
+
+
+CONFLICT
+notebook acıp duzeltebılırsın ıstedıgın gıbı. daha sonra status at add ve commit at. merge tamamlanmıs oluyor.
+Bu olaylarda ıkı branchdede aynı dosya uzerınden degısıklık yapman lazım bırınde yapıp bırınde yapmazsan olmaz cunku uzerıne yazar. farklı commıtlerı olacak. ONEMLI

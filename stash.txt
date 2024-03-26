@@ -1,0 +1,5 @@
+STASH
+Eğerki bir dosyayı gite addlememıssen veya addlemıssen yanı bu dosyayı commıtlememıssen bu dosya degısıklıgı branch degısıklıklerınde senı takıp eder. bu durumdan sıyrılmak ıcın "git stash" kullanılır. bu degısıklıklerı bırnevı gızler. git stash list ile bunları goruruz ve git stash pop ile bunları bu zuladan cıkartırız.
+
+TAG
+git tag name ile etiketleme yaparız. onemlı olabılır.

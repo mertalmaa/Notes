@@ -1,0 +1,34 @@
+TERMINAL COMMANDS
+
+ls
+ls -la
+git config --global user.name
+git config --global user.email
+mkdir
+touch
+rm
+rm -rf
+git init
+git status
+git log
+git add
+giy add .
+git commit -m "text"
+git branch
+git branch name
+git switch ## branch degistir
+git checkout ## commitler arası gezin ve branchler arası gez
+git merge name ## ana branche gececegız
+## fast-forward ## masterde bırsey yapılmayıp branch direkt merge edılırse
+## orc strategy ## diger mergeler
+git rm --cached name ## add konumundaki dosyayı gitin hafızadan siler
+git restore name ## sadece dosyayı eski halıne dondurur
+HEAD ## nerede oldugumuzu gosterır
+git reset --hard commitid (istenilen yer) ## diger commitlerı siler
+git revert commitid ## yeni bir commit atar hangi id yazdıysan o yeni commıt olur
+git stash ## git stash list ## git stash pop ## zulalama ıslemlerı
+git tag ## etiketleme
+git remote add origin url ## github reposunu ekler. origin urlnin degıskenıdır
+git push origin branch name ## repoya branchi pushlar
+git clone url ## istenilen yere repoyu indirir
+git branch -r ## remote branchlerı gorur

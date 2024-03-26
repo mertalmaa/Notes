@@ -1,0 +1,24 @@
+repo, pull request, actions, star, watch
+
+fork = bir projeyi kendi repona atmanızı yani kopyalamınızı saglar
+token olusturma - hesap girmek yerıne token gırerız
+README - reponla alakalı bılgılerı ıceren dosya, kendınde olusturabılırsın
+
+.gitignore - projede olan bazı onemlı onemsız dosyaları birnevi var olmalarına ve ıslevlerı olmalarına ragmen git add ve pushlardan saklayan dosya. buraya var olan dosyanın adını yazmak yeterli
+touch .gitignore (gizli dosya) > .gitignore text uyg ile acılır > saklamak ıstedıgın dosyanın adı yazılır > ve bir nevi saklanmıs olur var ama kaydedılmıyor
+internette .gitignore orneklerı gorebılırsın. ornegın python dosyasını projeden nasıl ıgnore edebılecegını ogrenebılırsın.
+
+license - kullanırken lisansı paylaşmanı isteyen kodlar için kullanılır, işin legal kısmı
+
+git remote add origin url ## github reposunu ekler. origin urlnin degıskenıdır
+git push origin branch name ## repoya branchi pushlar
+git clone url ## istenilen yere repoyu indirir. boylece pull request vs seylerı locale alabılırsın.
+git branch -r ## remote branchlerı gorur
+
+locale alıp farklı branch acıp bu branchde ıslemler yaptıktan sonra bu branchı pushlayabılır ve pull request atabılır.
+
+git pull = git fetch + git merge
+githubta yapılan mergeler sonrası local branch commit olarak gerıde kalabılır. aslında bu durumu locale ındırerek yapabılırsın fakat senın olusturmus oldugun bır branch kaybolacagı ıcın bu ıkı fonk kullanılır.
+git fetch ## orıgındekı projeden eksıklerımızı soyler. bunu git fetchden sonra git status ıle ogrenebılırsın. daha sonra bunun karsılastırmasını yapıp git pull ile SADECE branchini guncelleyebılırsın.
+
+IDE'ler ile bunu kullanmay öğrendin. ikiside aklında olsun.
