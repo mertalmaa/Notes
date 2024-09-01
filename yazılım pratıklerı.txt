@@ -9,5 +9,5 @@
 9. from ..... import * yapar isek herşeyi importlar. 
 windows = tkinter.Tk() yerine windows = Tk() diyebiliriz.
 10. isdigit() fonksiyonu strnin sayı olup olmadıgını anlar. COK ONEMLI
-
-
+11. isspace() fonksiyonu komple boşluk olup olmadığını anlar ve true false dondurur
+12. True ve False önemli.
