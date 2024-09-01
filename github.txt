@@ -25,3 +25,6 @@ IDE'ler ile bunu kullanmay öğrendin. ikiside aklında olsun.
 
 git pull --allow-unrelated-histories origin master
 bu bizim local branchde olmayan degısıkler yüzünden pushlama yapmamıza ızın vermemesını ortadan kaldırıyor
+
+git remote show origin
+bununla dosyadaki gite atadıgımız urlyı gorebılırız.
