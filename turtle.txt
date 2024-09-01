@@ -1,0 +1,23 @@
+bir grafik kütüphanesi. bununla kucuk ınteraktif oyunlar yapılabılır.
+html renk kodları onemlı. 3 tek tırnak arasına aldıgın seyler yorum satırı olur.
+
+import turtle ## import eder
+name = turtle.Screen() ## ekran oluşturur
+name = turtle.Turtle() ## cızıcı olusturur. bu bırden fazla olabılır.
+
+turtleye hareket komutları verebılıyorsun
+turtle.circle(radius) cember cızer
+bu radius + ve - olmasına gore turtlenın ısleyısı farklı olur
+
+turtle_instance.pencolor(colors_turtle[i % len(colors_turtle)])
+bu yapıdakı ısleyıs ne oldugunu bılmedıgımız iye renk tabelası cıkarmaktır bunun ıcın kalan mantıgı kullanabılırız 0dan len-1e kadar her sayı gelmıs olur ve out of lenght hatası almayız. 
+
+turtle.done() ## sekme ıle ısı bıtırır ve kapatabılırsın
+turtle.mainloop() ## turtle.done() ile aynı ısı gorur fakat oyunlarda bunu kullan.
+
+for def while gibi yapıları kullan. ISINI KOLAYLASTIR
+
+turtle_screen.listen() ## algıları acar
+turtle_screen.onkey(func: , key:) ## tusa gorev atama
+turtle_instance.clear() ## temizler
+turtle_instance.home() ## eve doner

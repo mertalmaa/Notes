@@ -1,0 +1,56 @@
+*tkinter, bir grafik arayüz geliştirme kütüphanesidir.
+
+*import tkinter
+ window için tkinter.Tk()
+ title verebılırsın
+ maınloop calıstırabılırsın
+
+*label bızım ıcın yazı yazar.
+	x = tkinter.Label(...) icerısınde bırsuru parametre var. bunlar daha sonra x.config(...) diyerek düzeltilebiliyor.
+	x.pack() yazımızı ekranın ortalarına ve alt alta konumlandırmak için kullanılır. daha sonra ıslenecek.
+
+*button buton olusturur
+	y = tkinter.Button(...) labelle parametre konusunda aynı.
+
+*entry ınput alır
+	z = tkinter.Entry(...) parametre konusunda diğerleriyle aynı.
+	z.get() benım entrımı alır. bunu ne yapmak ıstedıgım bana baglı (ornegın bır degıskene atayıp yazdırmak)
+
+*text multiline entry'dir.
+	k = tkinter.Text(...) parametre aynı.
+	k.get() çalışmaz çünkü index argümanına ihtiyacın var. k.get("a.b",tkinter.END) a=kaçıncı satır (1'den başlar) b=harfin sırası (0'dan başlar)
+
+eğerki widgetlere pack, place veya grid tarzı bir şey vermez isen ekranda gözükmez.
+
+pack(side=) bu arkadaş neye yapılmışsa onu ortalamaya çalışır. default olarak üstten alta ortalar. "side" parametresi ile bunu left,right vs. şeyler yapabiliriz.
+
+place(x= ,y=) istenilen yere widgetleri koyar. x ve y değerleri var. x0 y0 noktası sol üst ve - koordinat yok.
+
+grid(row= ,column=) burada 0'dan başlayarak sütun ve kolonlara yerleştirme işlemi yapar. en optimum çözümü arar.
+1. widget r0 c0
+2. widget r1 c1
+3. widget r3 c2 böyle bir durumda 3. widgeti r2'ye atar. çünkü r2 daha optimaldir.
+
+padx= ,pady= widgetler veya ekran arasına boşluk koymak için kullanılır.
+entry ve text'e g.focus() ile mouseu kitleyebiliriz
+
+*scale(from_= ,to=) fermuar yapısıdır. işaret aşağı kaydırılarak istenilen değer seçilir. parametrelerine "command" yazılabilir. böylece değer çekilebilir. 
+değer alma defi yazılırken .get() kullanılmaz. çünkü buton gibi tek tek basılan birşey değildir. 
+def scalex(value):
+print (value) tarzı birşey kullanılır.
+
+*spinbox(from_= ,to=) bir başka seçme yapısıdır. parametrelerine "command" yazılabilir. böylece değeri çekilebilir. def ve .get() ile kolayca değeri çekilebilir.
+
+*checkbutton(text= ,variable= , command=) todo widgetidir. checkbutonun değerini checkbutton.get() ile alamazsın. bu nedenle bir değişkeni IntVar'a atayıp variablese koyman lazım.
+k =tkinter.IntVar()
+daha sonra kullandığımız defte k.get() kullanabiliriz.
+
+*radiobutton checkbutoon ile aynı yapıya sahiptir. tek farklı yanı variable atramaktır. aynı zamanda birden fazla radiobutton'u tek def çatısı altına toplamak mümkündür.
+
+*listbox biraz karışıktır. oluşturulduktan sonra buraya birşeylerin insert edilmesi lazım. bu yapı for döngüsü ve index ile yapılabilir.
+def konusunda ise "event" kullanılması ve listbox.get(listbox.curselection())) kullanılması gerektiği öğrenildi.
+listbox yapısında bir command atama olmadığından .bind("<<ListboxSelect>>", func) yapısı kullanılır.
+buradaki "<<ListboxSelect>>" zorunludur çünkü callback buna tanımlanmıştır.
+ 
+
+

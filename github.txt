@@ -22,3 +22,6 @@ githubta yapılan mergeler sonrası local branch commit olarak gerıde kalabıl�
 git fetch ## orıgındekı projeden eksıklerımızı soyler. bunu git fetchden sonra git status ıle ogrenebılırsın. daha sonra bunun karsılastırmasını yapıp git pull ile SADECE branchini guncelleyebılırsın.
 
 IDE'ler ile bunu kullanmay öğrendin. ikiside aklında olsun.
+
+git pull --allow-unrelated-histories origin master
+bu bizim local branchde olmayan degısıkler yüzünden pushlama yapmamıza ızın vermemesını ortadan kaldırıyor

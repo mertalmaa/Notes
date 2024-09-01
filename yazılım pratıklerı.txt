@@ -1,0 +1,13 @@
+1. Ortak bir font tipini bir değişkene atayarak işini kolaylaştır.
+2. Ekran boyutunu öğren ve matematiksel işlem kullanarak koyacağın figürü yerleştir.
+3. grid_size belirleyerek ızgarasal bir yapıya eriş.
+4. Özellikle oyun bitirmek istersen time üzerinden git ve time bitince game_is_on = True/False gibi bir yapıyla oyunu oluşturan döngüleri kır.
+5. def içerisinde def yapısına aşinalık kazan. Birden fazla isimsiz yapı oluşturmak istersen aklına def gelsin.
+6. global x yapısı önemli. İyi araştırma yap. if else yapısı.
+7. def çalıştırmayı doğru sırada yap ve her yapı heryerde çalışmayabilir. Mesela time kütüphanesi turtle'da mainloop bozduğu için kullanamıyoz.
+8. pythonda kod çalışma sırası vardır fakat herhangi bir def'i tanımlandığı yerden önce kullanabilirsin. aynı zamanda bazı kütüphaneler buna izin vermezler (örneğin tkinter.Button gibi)
+9. from ..... import * yapar isek herşeyi importlar. 
+windows = tkinter.Tk() yerine windows = Tk() diyebiliriz.
+10. isdigit() fonksiyonu strnin sayı olup olmadıgını anlar. COK ONEMLI
+
+
