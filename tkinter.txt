@@ -51,6 +51,5 @@ daha sonra kullandığımız defte k.get() kullanabiliriz.
 def konusunda ise "event" kullanılması ve listbox.get(listbox.curselection())) kullanılması gerektiği öğrenildi.
 listbox yapısında bir command atama olmadığından .bind("<<ListboxSelect>>", func) yapısı kullanılır.
 buradaki "<<ListboxSelect>>" zorunludur çünkü callback buna tanımlanmıştır.
- 
 
-
+messagebox önemli ve kullanması basit ve bazı messageboxlar True ve False döndürür
